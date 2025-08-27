@@ -18,7 +18,7 @@ return Application::configure(basePath: dirname(__DIR__))
         ]);
         
         // Aktifkan middleware CORS
-        $middleware->cors();
+        //$middleware->cors();
         $middleware->validateCsrfTokens();
     })
     ->withExceptions(function (Exceptions $exceptions) {
